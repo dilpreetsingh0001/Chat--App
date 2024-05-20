@@ -1,0 +1,66 @@
+.adduser{
+    width: max-content;
+    height: max-content;
+    padding: 30px;
+    display: flex;
+    background-color: rgba(17, 25, 40, 0.781);
+    border-radius: 30px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    form{
+        display: flex;
+        gap: 20px;
+
+        input{
+            padding: 20px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            color: rgb(0, 0, 0);
+        }
+        button{
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            color: white;
+            background-color: #1f8ef1;
+            cursor: pointer;
+        }
+    }
+
+    .user-result{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .detail{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            img{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+        }
+        button{
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            color: white;
+            background-color: #1f8ef1;
+            cursor: pointer;
+        }
+    }
+
+}

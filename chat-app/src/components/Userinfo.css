@@ -1,0 +1,40 @@
+.userinfo{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.icons img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icons p{
+    cursor: pointer;
+    padding: 10px;
+}
+
+.icons p:hover{
+    background-color: rgba(17, 25, 40, 0.75);
+}
+
